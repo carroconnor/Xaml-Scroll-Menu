@@ -2,10 +2,23 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:Navbar"
-             x:Class="Navbar.MainPage">
-
-	<Label Text="Welcome to Xamarin.Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
-
+             x:Class="Navbar.MainPage"
+             BackgroundColor="GreenYellow"
+             >
+    <ScrollView Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+        <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+            <Button BorderColor="White" BorderWidth="2" BackgroundColor="GreenYellow" Text="All Dings" TextColor="White" WidthRequest="80"></Button>
+            <Button BorderColor="White" BorderWidth="2" BackgroundColor="GreenYellow" Text="Food Drink" TextColor="White" WidthRequest="80"></Button>
+            <Button BorderColor="White" BorderWidth="2" BackgroundColor="GreenYellow" Text="Shopping" TextColor="White" WidthRequest="80"></Button>
+            <Button BorderColor="White" BorderWidth="2" BackgroundColor="GreenYellow" Text="Services" TextColor="White" WidthRequest="80"></Button>
+            <Button BorderColor="White" BorderWidth="2" BackgroundColor="GreenYellow" Text="Merchandise" TextColor="White" WidthRequest="80"></Button>
+            <Button BorderColor="White" BorderWidth="2" BackgroundColor="GreenYellow" Text="All Dings" TextColor="White" WidthRequest="80"></Button>
+            <Button BorderColor="White" BorderWidth="2" BackgroundColor="GreenYellow" Text="All Dings" TextColor="White" WidthRequest="80"></Button>
+            <Button BorderColor="White" BorderWidth="2" BackgroundColor="GreenYellow" Text="All Dings" TextColor="White" WidthRequest="80"></Button>
+            <Button BorderColor="White" BorderWidth="2" BackgroundColor="GreenYellow" Text="All Dings" TextColor="White" WidthRequest="80"></Button>
+            <Button BorderColor="White" BorderWidth="2" BackgroundColor="GreenYellow" Text="All Dings" TextColor="White" WidthRequest="80"></Button>
+            <Button BorderColor="White" BorderWidth="2" BackgroundColor="GreenYellow" Text="All Dings" TextColor="White" WidthRequest="80"></Button>
+            <Button BorderColor="White" BorderWidth="2" BackgroundColor="GreenYellow" Text="All Dings" TextColor="White" WidthRequest="80"></Button>
+        </StackLayout>
+    </ScrollView>
 </ContentPage>
